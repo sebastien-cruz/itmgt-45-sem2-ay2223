@@ -144,3 +144,4 @@ def body_mass_index(weight, height):
     weight_kg = weight * 0.45359237
     height_meters = (height[0] * 0.3048) + (height[1] * 0.0254)
     bmi = weight_kg / (height_meters ** 2)
+    return bmi
